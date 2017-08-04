@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>利通金服理财</title>
+    <link rel="shortcut icon" href="../img/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/framework7.ios.min.css">
+    <link rel="stylesheet" href="../css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        /*    .navbar {
+            background: transparent;
+        }*/
+        /*.navbar:after {
+            content: none;
+        }*/
+        .navbar img {
+            width: 50%;
+        }
+        .pages{
+            padding-top: 0
+        }
+        #banner a {
+            display: inline-block;
+        }
+        #columns {
+            padding: 16px;
+            text-align: center;
+            font-size: 13px;
+            border-bottom: 15px solid #e5e5e5;
+        }
+        #columns .icon-block {
+            display: inline-block;
+            height: 40px;
+        }
+        #columns p {
+            color: #666;
+        }  
+        #columns .icon-block img{
+            width: 50%;
+        }
+        #notice {
+            height: 34px;
+            line-height: 34px;
+            background: #fff;
+            overflow: hidden;
+            font-size: 13px;
+            color: #666;
+        }
+        #notice img{
+            width: 20px;
+            margin: 8px 10px;
+        }
+        .title-icon {
+            display: inline-block;
+            width: 20px;
+        }
+        .title-icon img{
+            vertical-align: sub;
+        }
+        .title-zone {
+            font-size: 15px;
+            color: #333;
+            font-weight: 800;
+        }
+        .title-more {
+            float: right;
+            font-size: 11px;
+            color: #4d4d4d;
+            line-height: 22px;
+        }
+        .card {
+            border-radius: 5px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+        }
+        .p-rate {
+            font-size: 28px; 
+            color: #FF7029;
+        }
+        .p-btn {
+            margin: 8% 12% 3%;
+        }
+        .p-content span {
+            color: #333;
+        }
+
+
+
+        .toolbar i {
+            text-align:center; 
+        }
+        .toolbar i img{
+            width: 50%;
+            vertical-align: middle;
+        }
+        .tabbar a.active {
+            color: #F02C4D;
+        }
+        .tabbar a:hover {
+            color: #F02C4D;
+        }
+
+        .w18 {
+            width: 18px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="statusbar-overlay"></div>
+<div class="views">
+    <div class="view view-main">
+        <div class="pages toolbar-fixed">
+            <div class="page">
+                <div class="navbar bg-mainColor">
+                    <div class="navbar-inner">
+                        <div class="left"></div>
+                        <div class="center color-white">利通理财</div>
+                        <div class="right"><a href="#" class="link"><img src="../img/icon_msg.png"></a></div> 
+                    </div>
+                </div>
+                <div class="page-content hide-navbar-on-scroll">
+                    <div id="banner" class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="http://www.baidu.com" class="external"><img src="../img/banner1.png"></a></div>
+                            <div class="swiper-slide"><a href="http://www.baidu.com" class="external"><img src="../img/banner2.png"></a></div>
+                            <div class="swiper-slide"><a href="http://www.baidu.com" class="external"><img src="../img/banner3.png"></a></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div id="columns">
+                        <div class="row no-gutter">
+                            <div class="col-25"><a href=""><div class="icon-block"><img src="../img/icon_share.png"></div><p>邀请好友</p></a></div>
+                            <div class="col-25"><a href=""><div class="icon-block"><img src="../img/icon_guide.png"></div><p>新手指引</p></a></div>
+                            <div class="col-25"><a href="signin.html" class="external"><div class="icon-block"><img src="../img/icon_signin.png"></div><p>每日签到</p></a></div>
+                            <div class="col-25"><a href=""><div class="icon-block"><img src="../img/icon_security.png"></div><p>安全保障</p></a></div>
+                        </div>
+                    </div>
+                    <div id="notice" class="row">
+                        <div class="col-15"><img src="../img/icon_notice.png"></div>
+                        <div class="swiper-container col-85">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">新手专享，注册就送8888体验金</div>
+                                <div class="swiper-slide">新手专享，注册就送8888体验金</div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div id="fresh">
+                        <div class="content-block-title mt15">
+                            <span class="title-icon"><img src="../img/icon_fresh.png" alt=""></span>
+                            <span class="title-zone">新手专区</span>
+                            <a class="title-more external" href="product.html">更多</a>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <p class="p-rate">15.00%</p>
+                                    <p>年化收益率</p>
+                                    <p class="p-btn"><a href="#" class="button button-round button-big bg-mainColor color-white">立即抢购</a></p>
+                                    <div class="p-content">期限 <span class="p-term">30</span> 天 | 起购金额 <span class="p-min">100</span> 元</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="activity">
+                         <div class="content-block-title mt15">
+                            <span class="title-icon w18"><img src="../img/icon_hotactivity.png" alt=""></span>
+                            <span class="title-zone">活动专区</span>
+                            <a class="title-more external" href="product.html">更多</a>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-content-inner">Card with header and footer. Card header is used to display card title and footer for some additional information or for custom actions.</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-content-inner"><img src="../img/banner3.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar tabbar tabbar-labels bg-white">
+                    <div class="toolbar-inner">
+                        <a href="#" class="tab-link active">
+                            <i class="icon"><img src="../img/icon_index.png"></i>
+                            <span class="tabbar-label">首页</span>
+                        </a>
+                        <a href="product.html" class="tab-link external">
+                            <i class="icon"><img src="../img/icon_product.png"></i>
+                            <span class="tabbar-label">理财</span>
+                        </a>
+                        <a href="#" class="tab-link external">
+                            <i class="icon"><img src="../img/icon_discovery.png"></i>
+                            <span class="tabbar-label">发现</span>
+                        </a>
+                        <a href="#" class="tab-link external">
+                            <i class="icon"><img src="../img/icon_myaccount.png"></i>
+                            <span class="tabbar-label">我的</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../js/framework7.min.js"></script>
+<script type="text/javascript" src="../js/my-app.js"></script>
+<script>
+var mySwiper = myApp.swiper('#banner', {
+    pagination:'.swiper-pagination', //
+    paginationClickable :true,
+    // preventClicks : false,
+    // autoplay: 2000,
+    loop :true,
+});   
+var mySwiper = myApp.swiper('#notice .swiper-container', {
+    autoplay: 500,
+    speed: 4000,
+    width: 355,
+    // direction: 'vertical',
+    loop :true
+}); 
+</script>
+</body>
+</html>

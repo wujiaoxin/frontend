@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>利通金服理财</title>
+    <link rel="shortcut icon" href="../img/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/framework7.ios.min.css">
+    <link rel="stylesheet" href="../css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<div class="statusbar-overlay"></div>
+<div class="views">
+    <div class="view view-main">
+        <div class="pages navbar-fixed">
+            <div class="page">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="left"><a href="javascript:history.go(-1);" class="link"><img src="../img/icon_back.png"></a></div>
+                    </div>
+                </div>
+                <div class="page-content">
+                  <!--  <div class="logo mt10">
+                        <img src="../img/logo.png">
+                   </div>  -->
+                   <div class="login-content">
+                        <div class="login-block">
+                            <div class="login-icon w12"><img src="../img/icon_mobile.png"></div>
+                            <input id="reg-account" type="text" placeholder="请输入手机号码">
+                        </div>
+                        <div class="login-block rel">
+                            <div class="login-icon w18"><img src="../img/icon_verify.png"></div>
+                            <input id="reg-verify" type="text" placeholder="短信验证码">
+                            <div id="getSmsVerify" class="verify-btn" onclick="sendSmsVerify('reg-account',3)">获取验证码</div>
+                        </div>
+                        <div class="login-block">
+                            <div class="login-icon w14"><img src="../img/icon_pwd.png"></div>
+                            <input id="reg-pwd" type="password" placeholder="6-20位数字字母">
+                        </div>
+                        <div class="login-block">
+                            <div class="login-icon w20"><img src="../img/icon_inviter.png"></div>
+                            <input id="reg-inviter" type="password" placeholder="推荐人手机号(可不填)">
+                        </div>
+                        <div class="login-block">
+                            <a class="sign-btn" id="reg-btn">注册</a>
+                        </div>
+                        <div class="help-block">
+                            <img id="protocol" src="../img/icon_unchecked.png" data="0">
+                            <span>我已阅读并同意<a href="" class="external">《注册及服务协议》</a>和<a href="" class="external">《线上借款及服务协议》</a></span>
+                        </div>
+                   </div>
+                   <div class="bottom-block">
+                        <span>已有账户&nbsp;&nbsp;</span><a href="login.html" class="external">立即登录</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../js/framework7.min.js"></script>
+<script type="text/javascript" src="../js/lib/layer/layer.js"></script>
+<script type="text/javascript" src="../js/my-app.js"></script>
+<script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>

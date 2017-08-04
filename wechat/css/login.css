@@ -1,0 +1,131 @@
+.navbar {
+    background: transparent;
+}
+.navbar:after {
+    content: none;
+}
+.navbar .left{
+    margin: 15px 0 0 10px;
+}
+.page{
+    background: url(../img/bg_login.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.logo {
+    margin:32px auto 0;
+    width: 46.667%;
+}
+.login-content {
+    width: 84%;
+    margin: 20% auto 0;
+}
+.login-block {
+    height: 44px;
+    line-height: 44px;
+    border-radius: 22px;
+    background: rgba(255,255,255,.1) url(../img/login_input.png)  no-repeat;
+    background-size: 100% 100%;
+    padding:0 30px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.login-icon {
+    display: inline-block;
+}
+.w12 {
+	width: 12px;
+}
+.w14 {
+	width: 14px;
+}
+.w18 {
+	width: 18px;
+}
+.w20 {
+	width: 20px;
+}
+.login-icon img {
+    vertical-align: -5px;
+}
+.login-block input {
+    margin-left: 20px;
+    width: 75%;
+    height: 44px;
+    background: transparent;
+    border:none;
+    font-size: 1rem;
+    color:#fff;
+}
+:-moz-placeholder { 
+    color: rgba(255,178,178,1); 
+}
+
+::-moz-placeholder {
+    color: rgba(255,178,178,1);
+}
+
+input:-ms-input-placeholder {
+    color: rgba(255,178,178,1);
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(255,178,178,1);
+}
+.sign-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+}
+.help-block {
+    margin-top: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color:rgba(255,255,255,.5);
+}
+.text-right {
+	text-align: right;
+}
+
+.help-block a {
+	text-decoration-line: underline;
+}
+.bottom-block {
+    position: absolute;
+    left:0;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.625rem; 
+}
+.bottom-block span {
+    color:rgba(255,255,255,.5);
+}
+.bottom-block a {
+    text-decoration: underline; 
+}
+.mt10 {
+	margin-top: 10px;
+}
+.rel {
+	position: relative;
+}
+.verify-btn {
+	display: inline-block;
+	position: absolute;
+	top:7px;
+	right: 12px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	letter-spacing: 0;
+	font-size: 13px;
+	background:#fff;
+	color:#F74056;
+	border-radius: 4px;
+}
+#protocol {
+	width: 16px;
+	vertical-align: text-bottom;
+	padding-right: 4px;
+}
